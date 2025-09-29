@@ -13,8 +13,6 @@
 * [Limitações e riscos](#limitações-e-riscos)
 * [Roteiro (próximos passos)](#roteiro-próximos-passos)
 * [Links úteis](#links-úteis)
-* [Estrutura sugerida](#estrutura-sugerida)
-* [Licença](#licença)
 
 ---
 
