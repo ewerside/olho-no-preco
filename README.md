@@ -24,7 +24,7 @@ Preços de alimentos variam entre bairros e mudam rapidamente. O **OlhoNoPreco**
 
 ## Arquitetura (versão AP1)
 
-1. **OCR baseline (foto do cupom)** — OpenCV + Tesseract para demonstrar pipeline e limitações.
+1. **OCR baseline (foto do cupom)** — Tesseract para demonstrar pipeline e limitações.
 2. **Prova de conceito estruturada** — uso da **Chave de Acesso** para abrir a consulta pública e salvar o **HTML detalhado** da nota; extração **direta do DOM** (BeautifulSoup + lxml), sem OCR nem regex pesadas (pares `<label> → <span>` e classes CSS).
 3. **Saída** — DataFrame/CSV com campos essenciais (descrição, quantidades, unidade, valores, NCM etc.).
 
