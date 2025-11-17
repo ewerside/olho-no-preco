@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Olho no Preço</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero-panel card">
+        <div class="logo-badge">
+          <span>👁️</span>
+        </div>
+        <p class="hero-eyebrow">OlhoNoPreço</p>
+        <h1>Compare e economize agora mesmo</h1>
+        <p class="hero-lead">
+          Busque qualquer item da cesta básica e descubra quais mercados do Rio estão com o
+          melhor preço hoje.
+        </p>
+        <p class="hero-highlight">Ganhe visão completa antes de sair de casa!</p>
+
+        <ul class="feature-list">
+          <li>📸 Veja preços atualizados de cada mercado</li>
+          <li>🥇 Identifique a oferta campeã em segundos</li>
+          <li>💰 Acompanhe promoções e estoque</li>
+        </ul>
+      </section>
+
+      <section class="search-panel card">
+        <div class="panel-header">
+          <h2>Busque um produto</h2>
+          <p>Digite o nome ou categoria para ver onde está mais barato.</p>
+        </div>
+        <div id="search-root" class="search-box"></div>
+      </section>
+
+      <section class="results-panel card">
+        <div class="panel-header">
+          <h2>Comparativo de preços</h2>
+          <p id="results-hint">Pesquise um item para começar.</p>
+        </div>
+        <div id="results"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
